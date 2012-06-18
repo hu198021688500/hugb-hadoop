@@ -1,1 +1,2 @@
+hadoop namenode -format
 hadoop dfsadmin -safemode leave
