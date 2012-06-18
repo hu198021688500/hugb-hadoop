@@ -1,4 +1,4 @@
 hadoop namenode -format
 hadoop dfsadmin -safemode leave
 hadoop fs -mkdir testdata
-hadoop fs -put <PATH>
+hadoop fs -put <PATH> <directory》
