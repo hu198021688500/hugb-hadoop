@@ -26,7 +26,6 @@ public class Service {
 		test.restGraphDb = new RestGraphDatabase(test.SERVER_ROOT_URI);
 
 		test.restGraphDb.shutdown();
-
 	}
 
 	protected Relationship relationship() {

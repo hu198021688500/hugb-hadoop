@@ -22,6 +22,7 @@
  */
 -->
 <configuration>
+    
     <property>
         <name>hbase.rootdir</name>
         <value>hdfs://host185.freebsd.hu:9000/hbase</value>
@@ -47,4 +48,5 @@
         <name>dfs.support.append</name>
         <value>true</value>
     </property>
+    
 </configuration>

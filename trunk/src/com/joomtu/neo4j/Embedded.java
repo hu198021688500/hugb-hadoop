@@ -8,7 +8,7 @@ import org.neo4j.graphdb.Transaction;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
 
 public class Embedded {
-	
+
 	public enum MyRelationshipTypes implements RelationshipType {
 		KNOWS
 	}
@@ -42,5 +42,4 @@ public class Embedded {
 			graphDb.shutdown();
 		}
 	}
-
 }
