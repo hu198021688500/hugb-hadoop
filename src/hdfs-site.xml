@@ -4,6 +4,7 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
+    
     <property>
         <name>dfs.name.dir</name>
         <value>/usr/local/application/user-data/hadoop-1.0.3/namenode</value>
@@ -11,6 +12,7 @@
             Path on the local filesystem where the NameNode stores the namespace and transactions logs persistently.
         </description>
     </property>
+    
     <property>
         <name>dfs.data.dir</name>
         <value>/usr/local/application/user-data/hadoop-1.0.3/datanode</value>
@@ -18,16 +20,20 @@
             Comma separated list of paths on the local filesystem of a DataNode where it should store its blocks.
         </description>
     </property>
+    
     <property>
         <name>dfs.replication</name>
         <value>2</value>
     </property>
+    
     <property>
         <name>dfs.support.append</name>
         <value>true</value>
     </property>
+    
     <property>
         <name>dfs.datanode.max.xcievers</name>
         <value>4096</value>
     </property>
+    
 </configuration>
